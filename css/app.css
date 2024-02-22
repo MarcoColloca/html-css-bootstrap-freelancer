@@ -36,6 +36,6 @@ img{
 
 /* DEBUG */
 
-.debug [class*=col]{
+/* .debug [class*=col]{
     border: solid 1px red;
-}
+} */
