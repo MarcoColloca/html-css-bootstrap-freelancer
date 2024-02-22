@@ -18,3 +18,20 @@ a{
 img{
     max-width: 100%;
 }
+
+
+/* UTILITIY */
+
+.bg-darkblue{
+    background-color: #2C3E50;
+}
+
+
+
+
+
+/* DEBUG */
+
+.debug [class*=col]{
+    border: solid 1px red;
+}
