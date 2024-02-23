@@ -74,6 +74,40 @@ img{
 }
 
 
+
+
+.nav__menu__items{
+    background-color: #2C3E50;
+    text-align: left;
+    display: block;
+    position: absolute;
+    transform: translateX(-25px);
+    width: fit-content;
+    padding: 0;
+    z-index: -1;
+    transform: translateX(-55px);
+}
+
+.ciao:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ciao:hover + .nav__menu__items{
+    z-index: 99;
+}
+
+.nav__menu__items:hover{
+    z-index: 99;
+}
+
+
+
+
+
+/* About Text */
+
 @media (max-width: 991px){
     .about__text{
         max-width: calc(100%/12*7);
@@ -91,7 +125,7 @@ img{
     }
 }
 
-
+/*____________*/
 
 
 
