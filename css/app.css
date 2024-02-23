@@ -46,9 +46,7 @@ img{
 
 
 
-.double-col{
-    column-count: 2;
-}
+
 
 
 
@@ -71,6 +69,32 @@ img{
 }
 
 
+.about__text{
+    display: inline-block;
+}
+
+
+.double-coll{
+    column-count: 2;
+}
+
+
+@media (max-width: 991px){
+    .about__text{
+        max-width: calc(100%/12*7);
+        margin-bottom: 32px;
+        margin-left: 25%;
+    }
+}
+
+
+
+
+@media (min-width: 992px){
+    .double-col{
+        column-count: 2;
+    }
+}
 
 
 
