@@ -52,7 +52,9 @@ img{
     height: 50px;
 }
 
-
+.double-col{
+    column-count: 2;
+}
 
 
 
