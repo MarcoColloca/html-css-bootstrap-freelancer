@@ -75,6 +75,7 @@ img{
 
 
 
+
 /* BEFORE / AFTER */
 
 .star::after{
@@ -83,6 +84,7 @@ img{
     width: 70px;
     background-color: currentColor ;
     display: inline-block;
+    transform: translateY(-12px);
 }
 
 
@@ -92,6 +94,7 @@ img{
     width: 70px;
     background-color: currentColor;
     display: inline-block;
+    transform: translateY(-12px);
 }
 
 /* DEBUG */
