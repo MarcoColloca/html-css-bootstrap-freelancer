@@ -74,11 +74,6 @@ img{
 }
 
 
-.double-coll{
-    column-count: 2;
-}
-
-
 @media (max-width: 991px){
     .about__text{
         max-width: calc(100%/12*7);
