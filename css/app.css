@@ -26,6 +26,20 @@ img{
     background-color: #2C3E50;
 }
 
+.bg-blue{
+   background-color: #3A546D; 
+}
+
+.bg-watergreen{
+    background-color: #1ABC9C;
+}
+
+
+.text-watergreen{
+    color: #1ABC9C;
+}
+
+
 .avatar{
     width: 230px;
     height: 260px;
