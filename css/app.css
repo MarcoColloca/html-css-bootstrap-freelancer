@@ -38,6 +38,28 @@ img{
 }
 
 
+
+
+
+/* BEFORE / AFTER */
+
+.star::after{
+    content: "";
+    height: 3px;
+    width: 70px;
+    background-color: currentColor ;
+    display: inline-block;
+}
+
+
+.star::before{
+    content: "";
+    height: 3px;
+    width: 70px;
+    background-color: currentColor;
+    display: inline-block;
+}
+
 /* DEBUG */
 
 /* .debug [class*=col]{
